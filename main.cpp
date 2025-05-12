@@ -3,9 +3,9 @@
 
 int main() {
     GameOfLife game;
-    game.configureRules(); // Allow user to set birth/survival rules
-    game.initialize();     // Let user set up initial board
-    while (game.run()) {  // Loop game steps until user quits
+    game.configureRules(); 
+    game.initialize();     
+    while (game.run()) {  
         game.update();
         game.display();
     }
