@@ -22,7 +22,6 @@ void GameOfLife::initialize() {
         if (r >= 0 && r < rows && c >= 0 && c < cols)
             grid[r][c] = true;
     }
-    std::cin.ignore();
 }
 
 bool GameOfLife::run() {
